@@ -1,0 +1,41 @@
+{
+  "name": "ccca-project",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Fernando Machado Bernardino <fernandombernardino@gmail.com>",
+  "license": "ISC",
+  "keywords": [],
+  "main": "build/src/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server.ts",
+    "test": "vitest run",
+    "test:dev": "vitest",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint --ext .ts src",
+    "lint:fix": "eslint --ext .ts src --fix"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}

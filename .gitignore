@@ -1,0 +1,8 @@
+*.log
+.DS_Store
+.vscode
+.env
+build
+coverage
+node_modules
+playground.ts
